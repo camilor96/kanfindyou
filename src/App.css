@@ -63,6 +63,10 @@ body{
   width: 40rem;
   display: flex;
   justify-content: space-around;
+  height: 3rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 0.4rem;
 }
 .o-link{
   font-weight: 400;
@@ -93,13 +97,13 @@ body{
   height: 3rem;
   border-radius: 2rem;
   background: white;
-  border: 1px solid #9E0B0C;
-  color: #9E0B0C;
+  border: 1px solid #519e8a;
+  color: #519e8a;
   font-size: 1rem;
 }
 
 .o-button-call-to-action{
-  background: #9E0B0C;
+  background: #519e8a;
   color: #ffffff;
 }
 
@@ -136,29 +140,6 @@ body{
 .o-mobile-nav{
   display: none;
 }
-
-@media screen and (max-width: 768px){
-  .o-buttons-container{
-      display: block;
-  }
-  .o-links-container{
-      display: block;
-  }
-  .o-mobile-nav{
-      display: none;
-  }
-  
+.iconLocation {
+  font-size: 2.5rem;
 }
-
-@media screen and (max-width: 1044px){
-  .o-buttons-container{
-      display: none;
-  }
-  .o-links-container{
-      display: none;
-  }
-  .o-mobile-nav{
-      display: block;
-  }
-}
-

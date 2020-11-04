@@ -35,3 +35,6 @@
     height: 8rem;
     margin-top: 5rem;
 }
+.footerText {
+    width: 600px !important;
+}

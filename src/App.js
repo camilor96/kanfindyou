@@ -5,6 +5,16 @@ import ContainerCards from './Components/ContainerCards/ContainerCards';
 import Footer from './Components/Footer/Footer';
 import RegistroUsuario from './Components/RegistroUsuario/RegistroUsuario';
 import Mascota from './Components/Mascota/Mascota';
+import RegistroCitas from './Components/Citas/RegistroCitas';
+import { MdLocationOn } from "react-icons/md";
+import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
+import InputGroup from 'react-bootstrap/InputGroup';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
+import { MdSearch } from "react-icons/md";
+
+
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -21,25 +31,65 @@ function App() {
 
         <div className="o-navBar">
             <nav class="o-nav">
+            <div className="o-ubicacion-container">
+              <div className="row">
+                <div className="col-md-6 iconLocation">
+                <MdLocationOn></MdLocationOn>
+                </div>
+                <div className="col-md-6">
+                <Form>
+                <Form.Label>Ubicación</Form.Label>
+                <Form.Control as="select">
+                  <option>Cali</option>
+                  <option>Bogotá</option>
+                  <option>Medellín</option>
+                  <option>Cartagena</option>
+                  <option>Barranquilla</option>
+                </Form.Control>
+
+                </Form>
+                </div>
+              </div>
+            </div>
             <div class="o-img-container">
                 <h1>KanFindYou</h1>
             </div>
-            <div class="o-links-container">
+            <div className="o-buscardor">
+
+            <Form>
+              <Form.Row className="align-items-center">
+                <Col xs="auto">
+                  <Form.Label htmlFor="inlineFormInputGroup" srOnly>
+                    Buscar
+                  </Form.Label>
+                  <InputGroup className="mb-2">
+                    <InputGroup.Prepend>
+                      <InputGroup.Text> <MdSearch></MdSearch> </InputGroup.Text>
+                    </InputGroup.Prepend>
+                    <FormControl id="inlineFormInputGroup" placeholder="Buscar" />
+                  </InputGroup>
+                </Col>
+              </Form.Row>
+            </Form>
+
+
+
+
+            </div>
+            <div class="o-buttons-container">
+            <button class="o-button">Iniciar sesión</button>
+            <button class="o-button o-button-call-to-action"><Link to="/registro" className="o-linkButtonR">Regístrate</Link></button>
+            </div>
+            </nav>
+        </div>
+        <div className="row">
+        <div class="o-links-container col-md-12 text-center">
             <Link to="/" className="o-link">Inicio</Link>
             <a class="o-link" href="/#lista" className="o-link">Mascotas</a>
             <a class="o-link" href="#">Accesorios para mascotas</a>
             <a class="o-link" href="#">Servicio al cliente</a>
             <a class="o-link" href="#">Ayuda</a>
             </div>
-            <div class="o-buttons-container">
-            <button class="o-button">Iniciar sesión</button>
-            <button class="o-button o-button-call-to-action"><Link to="/registro" className="o-linkButtonR">Regístrate</Link></button>
-            </div>
-            <div class="o-mobile-nav">
-            <button class="o-button">Menú</button>
-
-            </div>
-            </nav>
         </div>
 {/*         <NavBar></NavBar> */}
           <Switch>
@@ -58,12 +108,16 @@ function App() {
             <Route path="/registro">
             <RegistroUsuario></RegistroUsuario>
             </Route>
+            <Route path="/citas">
+            <RegistroCitas></RegistroCitas>
+            </Route>
             <Route path="/mascota">
             <Mascota></Mascota>
             </Route>
           </Switch>
-        <Footer></Footer>
+        
         </div>
+        <Footer></Footer>
     </Router>
   );
 }

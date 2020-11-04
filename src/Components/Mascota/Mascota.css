@@ -4,5 +4,11 @@
 
 .infoContainer {
     text-align: left;
-    padding: 0rem 5rem 5rem 0rem;
+    padding: 0rem 5rem 5rem 0rem !important;
+}
+.buttonAdoptame{
+    color: white;
+}
+.buttonAdoptame:hover{
+    color: white;
 }

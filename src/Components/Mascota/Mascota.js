@@ -22,7 +22,7 @@ function Mascota(){
 
                     <p><strong>Fecha de publicación:</strong> Octubre 31, 2020</p>
                     <p><strong>Ubicación:</strong> Cachipay, Cundinamarca, Colombia</p>
-                    <Button variant="primary">Adoptame</Button>   
+                    <Button variant="primary"><a className="buttonAdoptame" href="/registro">Adoptame</a></Button>   
                     
                 
                 </div>
