@@ -1,0 +1,10 @@
+.o-containerCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42rem;
+    background-color: gray;
+}
+.titleCards{
+    color: white;
+}

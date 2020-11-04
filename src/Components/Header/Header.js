@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Header(){
     return(
-        <div className="o-header">
+
             <Carousel>
             <Carousel.Item>
                 <img
@@ -43,7 +43,6 @@ function Header(){
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
-        </div>
     )
 }
 
