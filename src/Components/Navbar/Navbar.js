@@ -10,8 +10,10 @@ function NavBar(){
             </div>
         <div class="o-links-container">
             <a class="o-link" href="#">Inicio</a>
-            <a class="o-link" href="#">Programa</a>
-            <a class="o-link" href="#">Nosotros</a>
+            <a class="o-link" href="#">Historial</a>
+            <a class="o-link" href="#">Accesorios para mascotas</a>
+            <a class="o-link" href="#">Servicio al cliente</a>
+            <a class="o-link" href="#">Ayuda</a>
         </div>
         <div class="o-buttons-container">
             <button class="o-button">Iniciar sesión</button>
