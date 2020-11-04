@@ -5,7 +5,7 @@ import CardDog from '../Card/CardDog';
 function ContainerCards(){
     return(
         <div className="o-containerCards row">
-            <div className="col-md-12">
+            <div className="col-12 col-md-12">
             <h1 className="titleCards">¡Adoptame!</h1>
             </div>
             <CardDog></CardDog>

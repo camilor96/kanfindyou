@@ -7,10 +7,10 @@ function Mascota(){
     return(
         <div className="o-mascota row">
             
-                <div className="col-md-6 imgContainer">
+                <div className="col-12 col-md-6 imgContainer">
                     <img src="https://vignette.wikia.nocookie.net/razasdeperros4226/images/1/13/Poodle.jpg/revision/latest/scale-to-width-down/340?cb=20170324000440&path-prefix=es" alt=""/>
                 </div>
-                <div className="col-md-6 infoContainer">
+                <div className="col-12 col-md-6 infoContainer">
                     <h1>Hola, soy Luna</h1>
                     <p><strong>Edad de la Mascota:</strong> 8 meses</p>
                     <p><strong>Descripción:</strong> 

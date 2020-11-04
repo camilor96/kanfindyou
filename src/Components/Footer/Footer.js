@@ -8,7 +8,7 @@ function Footer(){
          
             <div className="row">
                 
-            <div className="col-md-6 footerText">
+            <div className="col-12 col-md-6 footerText">
                 <h1>KanFindYou</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -16,7 +16,7 @@ function Footer(){
                     neque. Integer at nulla nec ipsum vestibulum vehicula. Duis 
                     sit amet massa sed leo dapibus malesuada et eu orci. </p>
             </div>
-            <div className="col-md-6 footerLinks">
+            <div className="col-12 col-md-6 footerLinks">
                 <div className="row">
                     <div className="col-md-12 links">
                         <div class="o-links-container">

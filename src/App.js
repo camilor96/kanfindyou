@@ -27,16 +27,16 @@ import {
 function App() {
   return (
     <Router>
-        <div className="App">
+        <div className="Container">
 
         <div className="o-navBar">
             <nav class="o-nav">
             <div className="o-ubicacion-container">
               <div className="row">
-                <div className="col-md-6 iconLocation">
+                <div className="col-6 col-md-6 iconLocation">
                 <MdLocationOn></MdLocationOn>
                 </div>
-                <div className="col-md-6">
+                <div className="col-6 col-md-6">
                 <Form>
                 <Form.Label>Ubicación</Form.Label>
                 <Form.Control as="select">
