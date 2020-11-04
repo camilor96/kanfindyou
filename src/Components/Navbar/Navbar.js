@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css"
+import RegistroUsuario from '../RegistroUsuario/RegistroUsuario';
+import Header from '../Header/Header'
 
 function NavBar(){
     return(
@@ -18,7 +20,6 @@ function NavBar(){
         <div class="o-buttons-container">
             <button class="o-button">Iniciar sesión</button>
             <button class="o-button o-button-call-to-action">Regístrate</button>
-
         </div>
         <div class="o-mobile-nav">
             <button class="o-button">Menú</button>
