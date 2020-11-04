@@ -5,6 +5,7 @@
     height: 42rem;
     background-color: gray;
 }
-.titleCards{
+.titleCards {
     color: white;
+    text-align: center;
 }
