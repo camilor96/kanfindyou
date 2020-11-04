@@ -5,3 +5,12 @@
     flex-wrap: wrap;
     margin: 1.5rem;
 }
+.linkMascota {
+    text-decoration: none !important;
+    color: white;
+}
+
+.linkMascota:hover {
+    text-decoration: none !important;
+    color: white;
+}

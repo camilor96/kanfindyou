@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: flex-start;
     height: 18rem;
-    margin-top: 5rem;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    margin-top: 0rem;
 }
 .o-links-container {
     width: 40rem;

@@ -5,7 +5,9 @@ import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 function Footer(){
     return(
         <div className="o-footer">
+         
             <div className="row">
+                
             <div className="col-md-6 footerText">
                 <h1>KanFindYou</h1>
                 <p>
@@ -18,8 +20,8 @@ function Footer(){
                 <div className="row">
                     <div className="col-md-12 links">
                         <div class="o-links-container">
-                        <a class="o-link" href="#">Inicio</a>
-                        <a class="o-link" href="#">Historial</a>
+                        <a class="o-link" href="/">Inicio</a>
+                        <a class="o-link" href="/#lista">Mascotas</a>
                         <a class="o-link" href="#">Accesorios para mascotas</a>
                         <a class="o-link" href="#">Servicio al cliente</a>
                         <a class="o-link" href="#">Ayuda</a>

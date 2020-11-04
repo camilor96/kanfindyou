@@ -16,7 +16,7 @@ function CardDog(){
             <p><strong>Cachipay (Cundinamarca)
             Octubre 31, 2020</strong></p>
             </Card.Text>
-            <Button variant="primary">Adoptame</Button>
+            <Button variant="primary"><a className="linkMascota" href="/mascota">Adoptame</a></Button>
         </Card.Body>
         </Card>
         </div>
