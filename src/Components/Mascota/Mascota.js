@@ -7,7 +7,7 @@ function Mascota(){
     return(
         <div className="o-mascota row">
             
-                <div className="col-12 col-md-6 imgContainer">
+                <div className="col-12 col-md-5 imgContainer text-center">
                     <img src="https://vignette.wikia.nocookie.net/razasdeperros4226/images/1/13/Poodle.jpg/revision/latest/scale-to-width-down/340?cb=20170324000440&path-prefix=es" alt=""/>
                 </div>
                 <div className="col-12 col-md-6 infoContainer">

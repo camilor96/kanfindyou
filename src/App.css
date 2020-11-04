@@ -143,3 +143,28 @@ body{
 .iconLocation {
   font-size: 2.5rem;
 }
+
+
+@media screen and (max-width: 768px){
+  .o-footer {
+    display: flex;
+}
+.o-links-container {
+
+  height: 3rem;
+
+}
+  
+}
+
+@media screen and (max-width: 1044px){
+  .o-footer {
+    display: none;
+}
+.o-links-container {
+  font-size: 11px;
+  height: 2.5rem;
+
+}
+}
+
