@@ -168,3 +168,12 @@ body{
 }
 }
 
+.o-link-special {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #519E8A;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
+}

@@ -13,6 +13,9 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import { MdSearch } from "react-icons/md";
+import { Component } from 'react';
+import Imagenes from './Components/API/Imagenes';
+import Imagenes2 from './Components/APICard/Imagenes2';
 
 
 import './App.css';
@@ -86,7 +89,7 @@ function App() {
         <div class="o-links-container col-md-12 text-center">
             <Link to="/" className="o-link">Inicio</Link>
             <a class="o-link" href="/#lista" className="o-link">Mascotas</a>
-            <a class="o-link" href="#">Accesorios para mascotas</a>
+            <Link class="o-link o-link-special" to="/perros">Ellos ya tienen hogar</Link>
             <a class="o-link" href="#">Servicio al cliente</a>
             <a class="o-link" href="#">Ayuda</a>
             </div>
@@ -96,17 +99,20 @@ function App() {
             <Route path="/" exact>
             <Header></Header>
             <div id="lista">
-            <ContainerCards></ContainerCards>
+            <Imagenes2></Imagenes2>
             </div>
             </Route>
             <Route path="/inicio">
             <Header></Header>
             <div id="lista">
-            <ContainerCards></ContainerCards>
+            <Imagenes2></Imagenes2>
             </div>
             </Route>
             <Route path="/registro">
             <RegistroUsuario></RegistroUsuario>
+            </Route>
+            <Route path="/perros">
+            <Imagenes></Imagenes>
             </Route>
             <Route path="/citas">
             <RegistroCitas></RegistroCitas>
